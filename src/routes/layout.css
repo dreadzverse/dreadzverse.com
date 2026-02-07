@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'GeistMono';
+	src: url('/fonts/GeistMono-VariableFont_wght.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: 'GeistMono', sans-serif;
+	@apply flex h-dvh min-h-dvh w-dvw min-w-dvw flex-col bg-linear-30 from-neutral-950 to-neutral-900 text-neutral-200;
+}
