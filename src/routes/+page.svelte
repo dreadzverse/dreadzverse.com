@@ -77,10 +77,10 @@
 <main class="grow">
 	<section class="flex h-full w-full flex-col items-center justify-center gap-4">
 		<h1 class="text-8xl font-bold">Dreadz</h1>
-		<p class="text-lg font-extralight">
-			What's up mate? I'm glad you came here. Go ahead and take a look around.
+		<p class="text-center text-lg font-extralight">
+			Listen. Understand. Practice. Embrace imperfection to achieve progress.
 		</p>
-		<section class="flex gap-3">
+		<section class="flex flex-wrap items-center justify-center gap-3">
 			{#each links as link, i (i)}
 				<a
 					href={link.url}
