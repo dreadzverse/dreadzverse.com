@@ -8,6 +8,9 @@ const config = {
 		}),
 		paths: {
 			base: ''
+		},
+		alias: {
+			$content: 'src/content'
 		}
 	}
 };
