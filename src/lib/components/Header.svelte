@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
 
 	import { name, navbarLinks } from '$lib/configs';
 </script>
@@ -10,7 +11,11 @@
 		<ul>
 			{#each navbarLinks as link, i (i)}
 				<li>
-					<a href={resolve(link.path)}>{link.name}</a>
+					<a
+						href={resolve(link.path)}
+						class="transition-all duration-300 hover:scale-110 hover:text-sky-600"
+						class:text-sky-600={page.url.pathname === link.path}>{link.name}</a
+					>
 				</li>
 			{/each}
 		</ul>
