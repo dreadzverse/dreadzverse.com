@@ -18,6 +18,8 @@
 
 <Header />
 
-{@render children()}
+<main class="grow overflow-x-hidden overflow-y-auto">
+	{@render children()}
+</main>
 
 <Footer />

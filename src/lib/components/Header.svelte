@@ -14,7 +14,9 @@
 					<a
 						href={resolve(link.path)}
 						class="transition-all duration-300 hover:scale-110 hover:text-sky-600"
-						class:text-sky-600={page.url.pathname === link.path}>{link.name}</a
+						class:text-sky-600={link.path === '/'
+							? page.url.pathname === '/'
+							: page.url.pathname.startsWith(link.path)}>{link.name}</a
 					>
 				</li>
 			{/each}
