@@ -5,7 +5,7 @@
 
 	import { name } from '$lib/configs';
 
-	import Header from '$lib/components/Header.svelte';
+	// import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	let { children } = $props();
@@ -16,7 +16,7 @@
 	<title>{name}</title>
 </svelte:head>
 
-<Header />
+<!-- <Header /> -->
 
 <main class="grow overflow-x-hidden overflow-y-auto">
 	{@render children()}
