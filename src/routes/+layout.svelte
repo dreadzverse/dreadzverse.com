@@ -3,6 +3,8 @@
 
 	import './layout.css';
 
+	import { name } from '$lib/configs';
+
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
@@ -11,7 +13,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Dreadz</title>
+	<title>{name}</title>
 </svelte:head>
 
 <Header />

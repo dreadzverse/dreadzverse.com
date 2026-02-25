@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { Copyright } from '@lucide/svelte';
 
-	const username: string = 'dreadzverse';
-	const currentYear: number = new Date().getFullYear();
+	import { username, currentYear } from '$lib/configs';
 </script>
 
 <footer class="flex h-8 items-baseline justify-center gap-2">
