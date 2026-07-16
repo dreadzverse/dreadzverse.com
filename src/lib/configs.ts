@@ -18,47 +18,42 @@ export const currentYear = new Date().getFullYear();
 export const navbarLinks = [{ name: 'Blog', path: '/blog' }];
 export const socialLinks: Link[] = [
 	{
-		url: 'https://twitch.tv/dreadzverse',
+		url: 'https://links.dreadzverse.com/twitch',
 		title: 'Twitch',
 		icon: SiTwitch as unknown as Icon
 	},
 	{
-		url: 'https://youtube.com/@dreadzverse',
+		url: 'https://links.dreadzverse.com/youtube',
 		title: 'YouTube',
 		icon: SiYoutube as unknown as Icon
 	},
 	{
-		url: 'https://tiktok.com/@dreadzverse',
-		title: 'TikTok',
-		icon: SiTiktok as unknown as Icon
-	},
-	{
-		url: 'https://instagram.com/dreadzverse',
+		url: 'https://links.dreadzverse.com/instagram',
 		title: 'Instagram',
 		icon: SiInstagram as unknown as Icon
 	},
 	{
-		url: 'https://threads.com/dreadzverse',
+		url: 'https://links.dreadzverse.com/tiktok',
+		title: 'TikTok',
+		icon: SiTiktok as unknown as Icon
+	},
+	{
+		url: 'https://links.dreadzverse.com/threads',
 		title: 'Threads',
 		icon: SiThreads as unknown as Icon
 	},
 	{
-		url: 'https://x.com/@dreadzverse',
+		url: 'https://links.dreadzverse.com/x',
 		title: 'X',
 		icon: SiX as unknown as Icon
 	},
 	{
-		url: 'https://bsky.app/profile/dreadzverse.bsky.social',
+		url: 'https://links.dreadzverse.com/bsky',
 		title: 'Bluesky',
 		icon: SiBluesky as unknown as Icon
 	},
 	{
-		url: 'https://rumble.com/user/dreadzverse',
-		title: 'Rumble',
-		icon: SiRumble as unknown as Icon
-	},
-	{
-		url: 'https://github.com/dreadzverse',
+		url: 'https://links.dreadzverse.com/github',
 		title: 'Github',
 		icon: SiGithub as unknown as Icon
 	}
